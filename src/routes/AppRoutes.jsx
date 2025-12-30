@@ -6,7 +6,7 @@ import Dashboard from "../pages/Dashboard";
 import BookAppointment from "../pages/BookAppointment";
 import MyAppointments from "../pages/MyAppointments";
 import Services from "../pages/Services";
-import Profile from "../pages/Profile";
+
 
 export default function AppRoutes() {
   return (
@@ -22,7 +22,6 @@ export default function AppRoutes() {
         <Route path="/book" element={<BookAppointment />} />
         <Route path="/appointments" element={<MyAppointments />} />
         <Route path="/services" element={<Services />} />
-        <Route path="/profile" element={<Profile />} />
       </Route>
     </Routes>
   );

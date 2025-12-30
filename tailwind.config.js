@@ -1,7 +1,8 @@
-export default {
-  content: ["./index.html", "./src/**/*.{js,jsx}"],
-  theme: {
-    extend: {},
-  },
-  plugins: [],
+/** @type {import('tailwindcss').Config} */
+export const content = ["./index.html", "./src/**/*.{js,jsx}"];
+export const theme = {
+  extend: {},
 };
+export const plugins = [];
+
+
